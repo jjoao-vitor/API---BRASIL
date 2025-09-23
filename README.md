@@ -18,3 +18,9 @@ api-brasil-ruby/
 │── main.rb # Menu interativo (entrada para pesquisa no sistema)
 │── Gemfile # Dependências Ruby
 ```
+# Criação do Banco e da Tabela
+
+1. Criando o banco de dados no PostgreSQL:
+```
+CREATE DATABASE brasil_api_app;
+```
