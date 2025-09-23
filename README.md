@@ -15,6 +15,6 @@ api-brasil-ruby/
 │── meu_app.rb # Regras de negócio (importar e buscar dados)
 │── brasil_api_service.rb # Consumo da API do Brasil
 │── database.rb # Conexão e consultas ao PostgreSQL
-│── main.rb # Menu interativo (entrada do sistema)
-│── Gemfile # Dependências Rub
+│── main.rb # Menu interativo (entrada para pesquisa no sistema)
+│── Gemfile # Dependências Ruby
 ```
