@@ -4,10 +4,7 @@ Projeto em Ruby que consome a API do Brasil para importar e consultar dados púb
 
 # Funcionalidades
 
-Importar dados da API do Brasil para o banco de dados.
-
-Listar registros cadastrados no banco.
-
-Buscar registros por nome ou outro critério disponível na API.
-
-Limpar todos os dados do banco (reimportar do zero).
+- Importar dados da API do Brasil para o banco de dados.
+- Listar registros cadastrados no banco.
+- Buscar registros por nome ou outro critério disponível na API.
+- Limpar todos os dados do banco (reimportar do zero).
