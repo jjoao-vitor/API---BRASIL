@@ -1,4 +1,4 @@
-# API---BRASIL
+# API-BRASIL
 
 Projeto em Ruby que consome a API do Brasil para importar e consultar dados públicos do país (ex: estados, cidades, indicadores).
 
