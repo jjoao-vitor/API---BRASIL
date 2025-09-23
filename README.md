@@ -9,6 +9,7 @@ Projeto em Ruby que consome a API do Brasil para importar e consultar dados púb
 - Buscar registros por nome ou outro critério disponível na API.
 - Limpar todos os dados do banco (reimportar do zero).
 
+## Estrutura do Projeto
 api-brasil-ruby/
 │── app.rb # Regras de negócio (importar e buscar dados)
 │── brasil_api.rb # Consumo da API do Brasil
