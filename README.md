@@ -10,8 +10,8 @@ Projeto em Ruby que consome a API do Brasil para importar e consultar dados púb
 - Limpar todos os dados do banco (reimportar do zero).
 
 # api-brasil-ruby/
-│── app.rb             # Regras de negócio (importar e buscar dados)
-│── brasil_api.rb      # Consumo da API do Brasil
-│── database.rb        # Conexão e consultas ao PostgreSQL
-│── main.rb            # Menu interativo (entrada do sistema)
-│── Gemfile            # Dependências Ruby
+- │── app.rb             # Regras de negócio (importar e buscar dados)
+- │── brasil_api.rb      # Consumo da API do Brasil
+- │── database.rb        # Conexão e consultas ao PostgreSQL
+- │── main.rb            # Menu interativo (entrada do sistema)
+- │── Gemfile            # Dependências Ruby
