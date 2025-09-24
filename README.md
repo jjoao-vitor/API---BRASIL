@@ -34,3 +34,8 @@ CREATE TABLE IF NOT EXISTS estados (
   regiao VARCHAR(20)
 );
 ```
+
+# Dependências do Projeto
+- pg: conexão e interação com o banco de dados PostgreSQL.
+- httparty: requisições HTTP.
+- json: manipulação de JSON.
