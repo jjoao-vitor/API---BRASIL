@@ -5,7 +5,9 @@ class Database
     PG.connect(
       dbname: 'brasil_api_app', # <- Altere para o nome do seu banco
       user: 'postgres',       # <- Altere para o seu usuário
-      password: 'postgres'    # <- Altere para a sua senha
+      password: 'postgres',    # <- Altere para a sua senha
+      host: "localhost", 
+      port: 5432
     )
   rescue PG::Error => e
     puts "Erro ao conectar ao PostgreSQL: #{e.message}"
