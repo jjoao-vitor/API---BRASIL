@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS estados (
 - httparty: requisições HTTP.
 - json: manipulação de JSON.
 
-# EXEMPLO PRATICO DA APLICAÇÃO EM USO:
+# Exemplo da aplicação em uso:
 ```
 Bem-vindo ao App de consulta à BrasilAPI!
 O que você deseja fazer?
