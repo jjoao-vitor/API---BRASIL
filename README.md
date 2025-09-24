@@ -39,3 +39,12 @@ CREATE TABLE IF NOT EXISTS estados (
 - pg: conexão e interação com o banco de dados PostgreSQL.
 - httparty: requisições HTTP.
 - json: manipulação de JSON.
+
+# EXEMPLO PRATICO DA APLICAÇÃO EM USO:
+```
+Bem-vindo ao App de consulta à BrasilAPI!
+O que você deseja fazer?
+1. Sincronizar dados dos estados da API para o banco de dados
+2. Listar estados armazenados no banco de dados
+3. Sair
+```
