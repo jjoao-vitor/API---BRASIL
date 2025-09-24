@@ -4,8 +4,8 @@ class Database
   def self.connect
     PG.connect(
       dbname: 'brasil_api_app', # <- Altere para o nome do seu banco
-      user: 'postgres',       # <- Altere para o seu usuário
-      password: 'postgres',    # <- Altere para a sua senha
+      user: 'postgres',         # <- Altere para o seu usuário
+      password: 'postgres',     # <- Altere para a sua senha
       host: "localhost", 
       port: 5432
     )
