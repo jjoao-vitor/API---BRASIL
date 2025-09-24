@@ -1,0 +1,5 @@
+# Gemfile
+source 'https://rubygems.org'
+
+gem 'httparty' # Para fazer requisições HTTP
+gem 'pg'       # Para conectar ao PostgreSQL
