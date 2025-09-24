@@ -24,3 +24,13 @@ api-brasil-ruby/
 ```
 CREATE DATABASE brasil_api_app;
 ```
+
+# O código database.rb já cria a tabela automaticamente ao inicializar (Caso ela não exista no banco).
+```
+CREATE TABLE IF NOT EXISTS estados (
+  id SERIAL PRIMARY KEY,
+  sigla VARCHAR(2) NOT NULL UNIQUE,
+  nome VARCHAR(50) NOT NULL,
+  regiao VARCHAR(20)
+);
+```
